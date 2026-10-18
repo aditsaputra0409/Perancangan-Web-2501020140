@@ -1,0 +1,65 @@
+
+/* External CSS */
+
+/* Mengatur foto profil */
+.foto-profil {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.foto-profil img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #d6e8f5;
+}
+
+/* Mengatur paragraf */
+p {
+    line-height: 1.7;
+}
+
+/* Mengatur garis pemisah antarbagian */
+section {
+    border-bottom: 1px solid #e1e8ef;
+    padding-bottom: 15px;
+}
+
+/* Mengatur link Instagram */
+a {
+    color: #0878c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #164e78;
+    text-decoration: underline;
+}
+
+/* Efek ketika kursor diarahkan ke bagian utama */
+main {
+    transition: box-shadow 0.3s ease;
+}
+
+main:hover {
+    box-shadow: 0 6px 20px rgba(22, 78, 120, 0.15);
+}
+
+/* Tampilan untuk layar HP */
+@media (max-width: 600px) {
+    main {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .foto-profil img {
+        width: 160px;
+        height: 160px;
+    }
+}
